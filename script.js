@@ -9,7 +9,7 @@ canvas.height = 600;
 
 // Game variables
 let bird = {
-    x: 100,
+    x: 100, 
     y: canvas.height / 2,
     width: 40,
     height: 30,
@@ -22,7 +22,7 @@ let pipes = [];
 let score = 0;
 let gameRunning = true;
 let pipeGap = 150;
-let pipeFrequency = 3500; // milliseconds
+let pipeFrequency = 5000; // milliseconds
 let lastPipeTime = 0;
 
 // Event listeners
