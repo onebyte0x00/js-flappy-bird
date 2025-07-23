@@ -22,7 +22,7 @@ let pipes = [];
 let score = 0;
 let gameRunning = true;
 let pipeGap = 150;
-let pipeFrequency = 1500; // milliseconds
+let pipeFrequency = 3500; // milliseconds
 let lastPipeTime = 0;
 
 // Event listeners
